@@ -37,7 +37,7 @@ struct HomeScreen: View {
 	private var picker: some View {
 		Picker("Picker", selection: $segmentId) {
 			Text("top 10 tripple suff").tag(SegmentedId.asc)
-			Text("desc").tag(SegmentedId.desc)
+			Text("asc").tag(SegmentedId.desc)
 		}
 		.pickerStyle(.segmented)
 	}
